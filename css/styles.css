@@ -1077,6 +1077,12 @@ a {
   color: #404bbf;
 }
 
+.mobile-menu-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 @media (min-resolution: 192dpi) {
   .hero {
     background-image:
