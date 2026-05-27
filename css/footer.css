@@ -1,0 +1,178 @@
+.page-footer {
+  background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-logo-wrapper {
+  margin-right: 120px;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+
+  display: inline-block;
+
+  margin-bottom: 16px;
+}
+
+.page-footer-text {
+  width: 264px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.footer-social-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: #fff;
+
+  margin-bottom: 16px;
+}
+
+.footer-social-list {
+  display: flex;
+
+  column-gap: 16px;
+}
+
+.footer-social-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social-link {
+  /* width: 100%;
+  height: 100%; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  background-color: #4d5ae5;
+
+  width: 40px;
+  height: 40px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-icon {
+  fill: #f4f4fd;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+
+/* Modal Footer */
+
+.modal-footer {
+  margin-left: auto;
+}
+
+.form-label-footer {
+  display: block;
+
+  margin-bottom: 16px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.modal-form-footer {
+  display: flex;
+  align-items: center;
+}
+
+.form-input-footer {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding-left: 16px;
+  min-width: 264px;
+  height: 40px;
+
+  background-color: transparent;
+
+  font-weight: 400;
+  font-size: 12px;
+
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input-footer:focus {
+  outline: none;
+  border-color: #31d0aa;
+}
+
+.form-input-footer::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.subscribe-btn {
+  cursor: pointer;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  margin-left: 24px;
+
+  border-radius: 4px;
+
+  padding: 8px 24px;
+
+  height: 40px;
+  max-width: 165px;
+
+  background-color: #4d5ae5;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: #31d0aa;
+}
+
+.send-icon {
+  fill: #fff;
+}
