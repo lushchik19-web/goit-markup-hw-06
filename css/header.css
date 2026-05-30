@@ -9,6 +9,7 @@
 
 .header-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -75,6 +76,10 @@
   background-color: #404bbf;
 }
 
+.address-nav {
+  display: none;
+}
+
 .address-nav-list {
   display: none;
 }
@@ -104,6 +109,13 @@
   color: #404bbf;
 }
 
+.burger-menu {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 @media screen and (min-width: 768px) {
   .header-nav {
     display: flex;
@@ -112,8 +124,10 @@
   .header-logo {
     padding-top: 24px;
     padding-bottom: 24px;
+  }
 
-    margin-right: 120px;
+  .address-nav {
+    display: none;
   }
 
   .address-nav-list {
@@ -122,10 +136,21 @@
     gap: 12px;
   }
 
+  .address-nav-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #434455;
+  }
+
   .burger-menu {
     display: none;
   }
 }
 
 @media screen and (min-width: 1158px) {
+  .header-logo {
+    margin-right: 76px;
+  }
 }

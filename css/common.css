@@ -79,14 +79,15 @@ a {
 }
 
 .container {
-  width: 320px;
+  width: 100%;
+  max-width: 320px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1158px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .container {
     width: 768px;
   }
@@ -95,5 +96,7 @@ a {
 @media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
