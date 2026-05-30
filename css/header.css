@@ -9,7 +9,6 @@
 
 .header-container {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -30,8 +29,7 @@
 
 .header-nav {
   margin-right: auto;
-  /* flex-grow: 1; */
-  /* padding-right: 340px; */
+  display: none;
 }
 
 .header-nav-list {
@@ -73,6 +71,10 @@
   border-radius: 2px;
 
   background-color: #404bbf;
+}
+
+.address-nav {
+  display: none;
 }
 
 .address-nav-list {
