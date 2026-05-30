@@ -1,4 +1,4 @@
-/* .features-section {
+.features-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -41,9 +41,9 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-} */
+}
 
-.container {
+/* .container {
   max-width: 320px;
 
   margin: 0 auto;
@@ -142,4 +142,4 @@
 
     margin-bottom: 8px;
   }
-}
+} */
