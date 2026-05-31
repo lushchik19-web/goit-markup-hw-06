@@ -153,4 +153,8 @@
   .header-logo {
     margin-right: 76px;
   }
+
+  .address-nav {
+    display: flex;
+  }
 }
