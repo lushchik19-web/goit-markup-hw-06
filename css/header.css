@@ -86,9 +86,9 @@
 
 .address-nav-link {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   color: #434455;
 
   display: block;
@@ -124,10 +124,12 @@
   .header-logo {
     padding-top: 24px;
     padding-bottom: 24px;
+
+    margin-right: 120px;
   }
 
   .address-nav {
-    display: none;
+    display: block;
   }
 
   .address-nav-list {
@@ -138,9 +140,9 @@
 
   .address-nav-link {
     font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16667;
-    letter-spacing: 0.04em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
   }
 
@@ -156,5 +158,18 @@
 
   .address-nav {
     display: flex;
+  }
+
+  .address-nav-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .address-nav-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
   }
 }
