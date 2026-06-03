@@ -7,6 +7,7 @@
 .team-section-list {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 72px;
 }
 
@@ -49,7 +50,7 @@
 
   display: flex;
 
-  column-gap: 16px;
+  column-gap: 24px;
 }
 .team-social-item {
   width: 40px;
