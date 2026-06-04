@@ -1,7 +1,7 @@
 .mobile-menu {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  /* flex-direction: column;
+  justify-content: space-between; */
 
   position: fixed;
   z-index: 99990;
@@ -27,6 +27,12 @@
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
+}
+
+.mobile-menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .mobile-menu-close-btn {
@@ -79,6 +85,11 @@
 } */
 .mobile-menu-nav-item {
   margin-bottom: 40px;
+}
+
+.mobile-menu-nav-item:last-child,
+.mobile-menu-address-nav-item:last-child {
+  margin-bottom: 0;
 }
 .mobile-menu-nav-link {
   font-weight: 700;
